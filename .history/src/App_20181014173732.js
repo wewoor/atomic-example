@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-
+import logo from './logo.svg';
 import './App.css';
 
-import MainPage from './pages/main';
+import Header from './components/organisms/header';
+import Footer from './components/organisms/footer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-         <MainPage/>
+        <Header/>
+        <Footer/>
       </div>
     );
   }
