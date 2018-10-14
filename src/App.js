@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 
-import './App.css';
-
 import MainPage from './pages/main';
+
+import './styles/comm.css';
+import './styles/pages/main.css';
 
 class App extends Component {
   render() {
